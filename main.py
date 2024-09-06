@@ -1,7 +1,6 @@
 from cosmos_client import CosmosDBClient
 from openai_client import generate_completion, generate_embeddings
 from blob_client import download_blob
-import base64
 
 cosmos_client  = CosmosDBClient()
 def main(query):
